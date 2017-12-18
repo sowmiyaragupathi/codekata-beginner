@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main(void)
+{
+	int a;
+	printf("\nenter a  number:");
+	scanf("%d",&a);
+	(a%4==0)?printf("%d is leap year",a):printf("%d is an ordinary year",a);
+            return 0;
+}
