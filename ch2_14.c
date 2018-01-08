@@ -3,12 +3,12 @@
 #include<stdio.h>
 int main(void)
 {
-	int a,b,i;
+	int a,b,i,ans=0;
 	scanf("%d",&a);
 	scanf("%d",&b);
-	if(a<0 && b<0)
+	if(a<=0 && b<=0)
 	{
-		printf("plz enter a positive number");
+		printf("%d",ans);
 	}
 	else
 	{
