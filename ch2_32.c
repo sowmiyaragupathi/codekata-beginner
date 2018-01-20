@@ -1,4 +1,4 @@
-// count the no of words in character
+// count the no of words in sentence
 #include <stdio.h>
 #include <string.h>
 int main(void)
